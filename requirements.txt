@@ -5,7 +5,7 @@ scikit-learn>=1.0.0
 
 # NLP
 nltk>=3.6.0
-spacy>=3.4.0
+spacy>=3.4.0,<3.8  # Constrain to <3.8 for Python 3.9 compatibility
 vaderSentiment>=3.3.2
 transformers>=4.20.0
 tokenizers>=0.12.0
